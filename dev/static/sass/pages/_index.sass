@@ -1,0 +1,120 @@
+.text
+    position: absolute
+    max-width: 570px
+    font-size: 20px
+    line-height: 36px
+    top: 230px
+    left: 50%
+    transform: translateX(-50%)
+    z-index: 40
+
+
+.lake
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 305px
+    background: $cLake
+
+
+.left-hill-back
+    position: absolute
+    left: 0
+    bottom: 305px
+    background: url('../img/backgrounds/hill-01.png') no-repeat
+    width: 543px
+    height: 297px
+
+
+.mountain-one
+    position: absolute
+    bottom: 305px
+    left: 54%
+    width: 290px
+    height: 148px
+    background: url('../img/backgrounds/mountain-01.png') no-repeat
+
+
+.mountain-two
+    position: absolute
+    bottom: 305px
+    left: 61%
+    width: 511px
+    height: 261px
+    background: url('../img/backgrounds/mountain-02.png') no-repeat
+
+
+.left-hill-front
+    position: absolute
+    left: 0
+    bottom: 0
+    background: url('../img/backgrounds/hill-02.png') no-repeat
+    width: 386px
+    height: 531px
+    z-index: 6
+
+
+.hill-front-one
+    position: absolute
+    bottom: 0
+    left: 31%
+    width: 607px
+    height: 110px
+    background: url('../img/backgrounds/hill-03.png') no-repeat
+
+
+.hill-front-two
+    position: absolute
+    bottom: 0
+    left: 44%
+    width: 444px
+    height: 72px
+    background: url('../img/backgrounds/hill-04.png') no-repeat
+
+
+.pier
+    position: absolute
+    bottom: 270px
+    left: 180px
+    background: url('../img/icons/pier.png') no-repeat
+    width: 304px
+    height: 70px
+    z-index: 5
+
+    &::after
+        content: ""
+        background: url('../img/icons/pier-reflection.png') no-repeat
+        position: absolute
+        left: 0
+        bottom: -70px
+        width: 304px
+        height: 70px
+
+
+.hero
+    position: absolute
+    bottom: 340px
+    left: 410px
+    background: url('../img/icons/hero.png') no-repeat
+    width: 19px
+    height: 50px
+    z-index: 10
+
+
+.boat
+    position: absolute
+    bottom: 305px
+    left: 620px
+    background: url('../img/icons/boat.png') no-repeat
+    width: 113px
+    height: 40px
+
+    &::after
+        content: ""
+        background: url('../img/icons/boat-reflection.png') no-repeat
+        position: absolute
+        width: 113px
+        height: 40px
+        left: 0
+        bottom: -40px
